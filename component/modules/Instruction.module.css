@@ -1,0 +1,24 @@
+.container {
+margin-bottom: 100px;
+}
+
+.container h3 {
+font-size: 1.5rem;
+color: #7cb342;
+margin: 24px 0;
+}
+
+.container ul {
+    padding: 0;
+}
+.container li {
+list-style: none;
+font-size: 1.1rem;
+font-weight: 500;
+line-height: 30px;
+}
+
+.container li::before {
+    content: "• ";
+    color: #7cb342 ;
+}
